@@ -12,6 +12,7 @@ rp(url)
       wikiUrls.push($('td > b > a', html)[i].attribs.title);
     }
     console.log(wikiUrls);
+	process.exit(1);	
   })
   .catch(function(err){
     //handle error
